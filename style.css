@@ -39,18 +39,18 @@ main > article {
   padding: 50px; 
 }
 /* White if it's clean and untouched. */
-a :link {
+a:link {
   color: white;
 }
 /* Pink if it's being hovered over */
-a :hover {
+a:hover {
   color: pink;
 }
 /* Purple if it's been clicked. */
-a :clicked {
+a:clicked {
   color: purple;
 }
 /* Blue if it's been clicked */
-a :visited {
+a:visited {
   color: blue;
 }
