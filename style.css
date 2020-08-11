@@ -1,19 +1,22 @@
 
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono|Mono);
 
-body {
+/* Give us a nice background */
+body, header, main, footer, h1, h2, h3, a {
   background-color: cornsilk;
+  font-family: "Ubuntu Mono", monospace;
 }
 
+/* Make the header centered, fonted, and pretty. */
 header {
   background-color: darkred;
-  font-family: "Ubuntu Mono", monospace;
   margin: auto;
   text-align: center;
   color: lightyellow;
   height: 100px;
 }
 
+/* Big, yellow-ish letters. */
 header > h1 {
   font-size: 40px;
   color: yellowgreen;
@@ -30,4 +33,24 @@ main {
 main > article > img {
   width: 250px;
   height: auto;
+}
+
+main > article {
+  padding: 50px; 
+}
+/* White if it's clean and untouched. */
+a :link {
+  color: white;
+}
+/* Pink if it's being hovered over */
+a :hover {
+  color: pink;
+}
+/* Purple if it's been clicked. */
+a :clicked {
+  color: purple;
+}
+/* Blue if it's been clicked */
+a :visited {
+  color: blue;
 }
